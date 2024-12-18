@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #2B2B2B;
+}
+
+main {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    margin: 20px 50px;
+}

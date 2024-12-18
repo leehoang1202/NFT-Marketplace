@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #2B2B2B;
+    font-size: 62.5%;
+}
+
+main {
+    font-family: "Work Sans", sans-serif;
+}
+

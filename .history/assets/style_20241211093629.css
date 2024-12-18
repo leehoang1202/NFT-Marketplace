@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #2B2B2B;
+}
+
+main {
+    font-family: "Work Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Common */
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 224px;
+    height: 60px;
+    border-radius: 20px;
+    background: #A259FF;
+    color: #fff;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    margin: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+}
+
+.navbar__brand {
+    display: flex;
+}
+
+.navbar--text {
+    line-height: 32px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.navbar__menu {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar--list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-item {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+.navbar__btn {
+    width: 152px;
+    height: 60px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    margin: 80px 0;
+    justify-content: space-between;
+}
+
+.hero__content {
+    width: 40%;
+    gap: 30px;
+}
+
+.hero__media {
+    width: 50%;
+    height: 510px;
+    background: #3B3B3B;
+}
+
+.hero__content--title {
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 74px;
+    color: #fff;
+}
+
+.hero__content--desc {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    color: #fff;
+}
+
+.hero__btn {
+    margin-top: 30px;
+}
+
+.hero__number {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.hero__number--top {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Space Mono", sans-serif;
+    color: #fff;
+}
+
+.hero__number--bottom {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.hero__media--img {
+    width: 510px;
+    height: 401px;
+    object-fit: cover;
+}
+
+.hero__media--title {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hero__avatar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.hero__avatar--icon {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hero__avatar--name {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}

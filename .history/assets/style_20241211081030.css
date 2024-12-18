@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #2B2B2B;
+}
+
+main {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    margin: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+.navbar__brand {
+    display: flex;
+}
+
+.navbar--text {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.navbar__menu {
+    display: flex;
+}
+
+.navbar--list {
+    display: flex;
+}

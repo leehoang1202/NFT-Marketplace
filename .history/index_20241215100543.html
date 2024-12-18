@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+
+    <!-- Embed Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar">
+        <div class="navbar__brand">
+            <img src="./assets/img/Storefront.svg" alt="" class="navbar--logo">
+            <span class="navbar--text">NFT Marketplace</span>
+        </div>
+        <div class="navbar__menu">
+            <ul class="navbar--list">
+                <li class="navbar-item">Marketplace</li>
+                <li class="navbar-item">Rankings</li>
+                <li class="navbar-item">Connect a wallet</li>
+            </ul>
+            <a href="#!" class="btn navbar__btn">
+                <img src="./assets/img/icon/User-icon.svg" alt="" class="navbar__button">
+                <p class="navbar__button--text">Sign Up</p>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Hero -->
+            <section class="hero">
+                <!-- Heor Content -->
+                <div class="hero__content">
+                    <h2 class="hero__content--title">Discover <br>Digital Art & <br>Collect NFTs</h2>
+                    <div class="hero__content--desc">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</div>
+                    <div class="btn hero__btn">
+                        <img src="./assets/img/icon/RocketLaunch.svg" alt="" class="hero__btn--image">
+                        <p class="hero__btn--action">Get Started</p>
+                    </div>
+                    <div class="hero__number">
+                        <div class="hero__number--index">
+                            <p class="hero__number--top">240k+</p>
+                            <p class="hero__number--bottom">Total Sale</p>
+                        </div>
+                        <div class="hero__number--index">
+                            <p class="hero__number--top">100k+</p>
+                            <p class="hero__number--bottom">Auctions</p>
+                        </div>
+                        <div class="hero__number--index">
+                            <p class="hero__number--top">240k+</p>
+                            <p class="hero__number--bottom">Artists</p>
+                        </div>                        
+                    </div>
+                </div>
+                <!-- Hero Media -->
+                <div class="hero__media">
+                    <img src="./assets/img/hero-img.jpg" alt="" class="hero__media--img">
+                    <h3 class="hero__media--title">Sapce Walking</h3>
+                    <div class="hero__avatar">
+                        <img src="./assets/img/avatar-hero/uifaces-alien-image.jpg" alt="" class="hero__avatar--icon">
+                        <p class="hero__avatar--name">Animakid</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trending -->
+             <section class="trending">
+                <h3 class="trending__title">Trending Collection</h3>
+                <div class="trending__desc">Checkout our weekly updated trending collection.</div>
+                <div class="trending__media">
+
+                    <!-- Card Item 1 -->
+                    <div class="trending__img--item">
+                        <img src="./assets/img/trending/item-1.jpg" alt="" class="trending__img-main">
+                        <div class="trending__sec">
+                            <img src="./assets/img/trending/item 1/card-item-1.jpg" alt="" class="trending__sec--item">
+                            <img src="./assets/img/trending/item 1/card-item-2.jpg" alt="" class="trending__sec--item">
+                            <div class="trending__sec--number">1025+</div>
+                        </div>
+                        <h4 class="trending__item--sub">DSGN Animals</h4>
+                        <div class="trending__avatar">
+                            <img src="./assets/img/trending/avatar-1.jpg" alt="" class="trending__avatar--icon">
+                            <p class="trending__avatar--name">MrFox</p>
+                        </div>
+                    </div>
+
+                    <!-- Card Item 2 -->
+                    <div class="trending__img--item">
+                        <img src="./assets/img/trending/item-2.jpg" alt="" class="trending__img-main">
+                        <div class="trending__sec">
+                            <img src="./assets/img/trending/item 2/card-item-1.jpg" alt="" class="trending__sec--item">
+                            <img src="./assets/img/trending/item 2/card-item-2.jpg" alt="" class="trending__sec--item">
+                            <p class="trending__sec--number">1025+</p>
+                        </div>
+                        <h4 class="trending__item--sub">Magic Mushrooms</h4>
+                        <div class="trending__avatar">
+                            <img src="./assets/img/trending/avatar-2.jpg" alt="" class="trending__avatar--icon">
+                            <p class="trending__avatar--name">Shroomie</p>
+                        </div>
+                    </div>
+
+                    <!-- Card Item 3 -->
+                    <div class="trending__img--item">
+                        <img src="./assets/img/trending/item-3.jpg" alt="" class="trending__img-main">
+                        <div class="trending__sec">
+                            <img src="./assets/img/trending/item 3/card-item-1.jpg" alt="" class="trending__sec--item">
+                            <img src="./assets/img/trending/item 3/card-item-2.jpg" alt="" class="trending__sec--item">
+                            <div class="trending__sec--number">1025+</div>
+                        </div>
+                        <h4 class="trending__item--sub">Disco Machines</h4>
+                        <div class="trending__avatar">
+                            <img src="./assets/img/trending/avatar-3.jpg" alt="" class="trending__avatar--icon">
+                            <p class="trending__avatar--name">BeKind2Robots</p>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
+             <!-- Creator -->
+            <section class="creator">
+                <h2 class="creator__title">Top Creators</h2>
+                <div class="creator__desc">
+                    <div class="creator__desc--sub">Checkout Top Rated Creators on the NFT Marketplace</div>
+                    <div class="btn creator__btn">
+                        <img src="./assets/img/creator/RocketLaunch.svg" alt="" class="creator__icon">
+                        <p class="creator__cta">View Rankings</p>
+                    </div>
+                </div>
+                <div class="creator__card">
+                    <!-- Row 1 -->
+                    <div class="creator__row">
+                        <!-- Card item 1 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">1</div>
+                                <img src="./assets/img/face/face-1.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">Keepitreal</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Item 2 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">2</div>
+                                <img src="./assets/img/face/face-2.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">DigiLab</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Item 3 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">3</div>
+                                <img src="./assets/img/face/face-3.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">GravityOne</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Item 4 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">4</div>
+                                <img src="./assets/img/face/face-4.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">Juanie</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="creator__row">
+                        <!-- Card item 5 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">5</div>
+                                <img src="./assets/img/face/face-5.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">BlueWhale</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Item 6 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">6</div>
+                                <img src="./assets/img/face/face-6.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">Mr Fox</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Item 7 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">7</div>
+                                <img src="./assets/img/face/face-7.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">Shroomie</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Item 8 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">8</div>
+                                <img src="./assets/img/face/face-8.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">Robotica</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="creator__row">
+                        <!-- Card item 9 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">9</div>
+                                <img src="./assets/img/face/face-9.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">RustyRobot</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Item 10 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">10</div>
+                                <img src="./assets/img/face/face-10.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">Animakid</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Item 11 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">11</div>
+                                <img src="./assets/img/face/face-11.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">Dotgu</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Item 12 -->
+                        <div class="creator__row--item">
+                            <div class="top-card">
+                                <div class="card_number">12</div>
+                                <img src="./assets/img/face/face-12.jpg" alt="" class="card__img">
+                            </div>
+                            <p class="artist__name">Ghibliar</p>
+                            <div class="card__desc">
+                                <div class="card__desc--label">Total Sales:</div>
+                                <div class="card__desc--number">34.53 ETH</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Categories -->
+             <section class="categories">
+                <h2 class="cate__title">Browse Categories</h2>
+                <div class="cate__card">
+                    <!-- Row 1 -->
+                    <div class="cate__card--row">
+                        <!-- Cate Item 1 -->
+                        <div class="cate__card--item">
+                            <div class="cate__item--func">
+                                <img src="./assets/img/categories/color-face.jpg" alt="" class="cate__item--img">
+                                <img src="./assets/img/categories/icon/PaintBrush.svg" alt="" class="cate__item--icon">
+                            </div>
+                            <p class="cate__item--desc">Art</p>
+                        </div>
+
+                        <!-- Cate Item 2 -->
+                        <div class="cate__card--item">
+                            <div class="cate__item--func">
+                                <img src="./assets/img/categories/color-face-2.jpg" alt="" class="cate__item--img">
+                                <img src="./assets/img/categories/icon/Swatches.svg" alt="" class="cate__item--icon">
+                            </div>
+                            <p class="cate__item--desc">Collectibles</p>
+                        </div>
+
+                        <!-- Cate Item 3 -->
+                        <div class="cate__card--item">
+                            <div class="cate__item--func">
+                                <img src="./assets/img/categories/color-face-3.jpg" alt="" class="cate__item--img">
+                                <img src="./assets/img/categories/icon/MusicNotes.svg" alt="" class="cate__item--icon">
+                            </div>
+                            <p class="cate__item--desc">Music</p>
+                        </div>
+
+                        <!-- Cate Item 4 -->
+                        <div class="cate__card--item">
+                            <div class="cate__item--func">
+                                <img src="./assets/img/categories/color-face-4.jpg" alt="" class="cate__item--img">
+                                <img src="./assets/img/categories/icon/Camera.svg" alt="" class="cate__item--icon">
+                            </div>
+                            <p class="cate__item--desc">Photography</p>
+                        </div>
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="cate__card--row">
+                        <!-- Cate Item 5 -->
+                        <div class="cate__card--item">
+                            <div class="cate__item--func">
+                                <img src="./assets/img/categories/color-face-5.jpg" alt="" class="cate__item--img">
+                                <img src="./assets/img/categories/icon/VideoCamera.svg" alt="" class="cate__item--icon">
+                            </div>
+                            <p class="cate__item--desc">Video</p>
+                        </div>
+
+                        <!-- Cate Item 6 -->
+                        <div class="cate__card--item">
+                            <div class="cate__item--func">
+                                <img src="./assets/img/categories/color-face-6.jpg" alt="" class="cate__item--img">
+                                <img src="./assets/img/categories/icon/MagicWand.svg" alt="" class="cate__item--icon">
+                            </div>
+                            <p class="cate__item--desc">Utility</p>
+                        </div>
+
+                        <!-- Cate Item 7 -->
+                        <div class="cate__card--item">
+                            <div class="cate__item--func">
+                                <img src="./assets/img/categories/color-face-7.jpg" alt="" class="cate__item--img">
+                                <img src="./assets/img/categories/icon/Basketball.svg" alt="" class="cate__item--icon">
+                            </div>
+                            <p class="cate__item--desc">Sport</p>
+                        </div>
+
+                        <!-- Cate Item 8 -->
+                        <div class="cate__card--item">
+                            <div class="cate__item--func">
+                                <img src="./assets/img/categories/color-face-8.jpg" alt="" class="cate__item--img">
+                                <img src="./assets/img/categories/icon/Planet.svg" alt="" class="cate__item--icon">
+                            </div>
+                            <p class="cate__item--desc">Virtual Worlds</p>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
+             <!-- Discover -->
+              <section class="discover">
+                <h2 class="creator__title">Discover More NFTs</h2>
+                <div class="creator__desc">
+                    <div class="creator__desc--sub">Explore new trending NFTs</div>
+                    <div class="btn creator__btn">
+                        <img src="./assets/img/Discover/Icon/Eye.svg" alt="" class="creator__icon">
+                        <p class="creator__cta">See All</p>
+                    </div>
+                </div>
+                <div class="dis__media">
+                    <!-- Media card 1 -->
+                     <div class="dis__media--card">
+                        <img src="./assets/img/Discover/img/dis-1.jpg" alt="" class="dis__card--img">
+                        <div class="dis__media--content">
+                            <p class="dis__card--title">Distant Galaxy</p>
+                            <div class="dis__card--artist">
+                                <img src="./assets/img/Discover/avatar/cate-1.jpg" alt="" class="dis-artist">
+                                <p class="dis-artist-name">MoonDancer</p>
+                            </div>
+                            <div class="dis__card--label">
+                                <p class="dis__label--left">Price</p>
+                                <p class="dis__label--right">Hightest Bid</p>
+                            </div>
+                            <div class="dis__card--ETH">
+                                <p class="dis__label--left">1.63 ETH</p>
+                                <p class="dis__label--right">0.33 wETH</p>
+                            </div>
+                        </div>
+                     </div>
+
+                     <!-- Media card 2 -->
+                     <div class="dis__media--card">
+                        <img src="./assets/img/Discover/img/dis-2.jpg" alt="" class="dis__card--img">
+                        <div class="dis__media--content">
+                            <p class="dis__card--title">Life On Edena</p>
+                            <div class="dis__card--artist">
+                                <img src="./assets/img/Discover/avatar/cate-2.jpg" alt="" class="dis-artist">
+                                <p class="dis-artist-name">NebulaKid</p>
+                            </div>
+                            <div class="dis__card--label">
+                                <p class="dis__label--left">Price</p>
+                                <p class="dis__label--right">Hightest Bid</p>
+                            </div>
+                            <div class="dis__card--ETH">
+                                <p class="dis__label--left">1.63 ETH</p>
+                                <p class="dis__label--right">0.33 wETH</p>
+                            </div>
+                        </div>
+                     </div>
+
+                     <!-- Media card 3 -->
+                     <div class="dis__media--card">
+                        <img src="./assets/img/Discover/img/dis-3.jpg" alt="" class="dis__card--img">
+                        <div class="dis__media--content">
+                            <p class="dis__card--title">AstroFiction</p>
+                            <div class="dis__card--artist">
+                                <img src="./assets/img/Discover/avatar/cate-3.jpg" alt="" class="dis-artist">
+                                <p class="dis-artist-name">Spaceone</p>
+                            </div>
+                            <div class="dis__card--label">
+                                <p class="dis__label--left">Price</p>
+                                <p class="dis__label--right">Hightest Bid</p>
+                            </div>
+                            <div class="dis__card--ETH">
+                                <p class="dis__label--left">1.63 ETH</p>
+                                <p class="dis__label--right">0.33 wETH</p>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+              </section>
+        </div>
+
+        <!-- Magic -->
+         <section class="magic-box">
+            <div class="magic-box-gradient">
+                <div class="container">
+                    <div class="magic__content">
+                        <div class="magic__content--artist">
+                            <img src="./assets/img/Magic/magic-1.jpg" alt="" class="magic__content--avatar">
+                            <div class="magic__artist--name">Shroomie</div>
+                        </div>
+                        <div class="magic__content--info">
+                            <div class="magic__info--left">
+                                <h2 class="magic__info--title">Magic Mashrooms</h2>
+                                <div class="btn magic__btn">
+                                    <img src="./assets/img/Discover/Icon/Eye.svg" alt="" class="magic__icon">
+                                    <p class="magic__cta">See NFT</p>
+                                </div>
+                            </div>
+                            <div class="magic__info--right">
+                                <div class="magic__info--right--inside">
+                                    <div class="magic_info-sub">Auction ends in:</div>
+                                    <div class="magic__info--number">
+                                        <p class="magic__number--item">59</p>
+                                        <p class="magic__number--item">:</p>
+                                        <p class="magic__number--item">59</p>
+                                        <p class="magic__number--item">:</p>
+                                        <p class="magic__number--item">59</p>
+                                    </div>
+                                    <div class="magic__index--list">
+                                        <p class="magic__index--item">Hours</p>
+                                        <p class="magic__index--item">Minutes</p>
+                                        <p class="magic__index--item">Seconds</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+        <div class="container">
+            <!-- How it works -->
+             <div class="work">
+                <h3 class="work__title">How It Works</h3>
+                <p class="work__desc">Find out how to get started</p>
+                <div class="work__card">
+                    <!-- Work Card Item 1 -->
+                    <div class="work__card--item">
+                        <img src="./assets/img/How it Works/card-1.png" alt="" class="card__item--img">
+                        <p class="card__item--title">Setup Your wallet</p>
+                        <p class="card__item--desc">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+                    </div>
+
+                    <!-- Work Card Item 2 -->
+                    <div class="work__card--item">
+                        <img src="./assets/img/How it Works/card-2.png" alt="" class="card__item--img">
+                        <p class="card__item--title">Create Collection</p>
+                        <p class="card__item--desc">Upload your work and setup your collection. Add a description, social links and floor price.</p>
+                    </div>
+
+                    <!-- How Card Item 3 -->
+                    <div class="work__card--item">
+                        <img src="./assets/img/How it Works/card-3.png" alt="" class="card__item--img">
+                        <p class="card__item--title">Start Earning</p>
+                        <p class="card__item--desc">Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.</p>
+                    </div>
+                </div>
+             </div>
+
+            <!-- Subcriber -->
+             <section class="subcriber">
+                <img src="./assets/img/subcriber/aunonault.jpg" alt="" class="subcr__img">
+                <div class="subcr__info">
+                    <h3 class="subcr__info--title">Join our weekly digest</h3>
+                    <p class="subcr__info--desc">Get exclusive promotions & updates straight to your inbox.</p>
+                    <div class="subcr__btn">
+                        <p class="subcr__btn--email">Enter your email here</p>
+                        <p class="subcr__btn--right">
+                            <img src="./assets/img/subcriber/email.svg" alt="" class="subcr__btn--icon">
+                            <p class="subcr__btn--text">Subcriber</p>
+                        </p>
+                    </div>
+                </div>
+             </section>
+        </div>
+    </main>
+</body>
+</html>
